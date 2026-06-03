@@ -111,7 +111,7 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.dashboard}>
-          <View style={[styles.macroCard, styles.calorieCard]}>
+          <View style={[styles.calorieCard]}>
             <Text style={styles.macroLabel}>Calories</Text>
             <Text style={styles.calorieValue}>{totalCalories}</Text>
             <Text style={styles.macroUnit}>kcal</Text>
